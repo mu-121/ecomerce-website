@@ -1,0 +1,223 @@
+html(lang='en')
+  head
+    title Ecommerce Website
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css')
+    script(src='https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js')
+    script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js')
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js')
+    style.
+      /* Make the image fully responsive */
+      .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      }
+      .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .marginclass{
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+      .no-border{
+        border: 0;
+      }
+
+  body
+    .container
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a.navbar-brand Ecommerce Website
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNav.collapse.navbar-collapse
+          ul.navbar-nav
+            li.navbar-item
+              a.nav-link(href='/') Home
+            li.navbar-item
+              a.nav-link(href='/login') Login
+            li.navbar-item
+              a.nav-link(href='/signup') Signup
+            li.navbar-item
+              a.nav-link(href='/about') About
+            li.navbar-item
+              a.nav-link(href='/contact') Contact Us
+          form.form-inline.my-2.my-lg-0(action="/search" method="POST")
+            input.form-control.mr-sm-2(type='search' placeholder='Search products' aria-label='Search' name='q')
+            button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Search
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/cart') View Cart
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/profile') View Profile
+      .container
+        .row
+          .col-md-3.border.bg-light.sticky-top
+            h5.text-center.marginclass Categories
+            ul.list-group
+                li.list-group-item
+                    a(href='/category/clothing') Clothing and fashion accessories
+                li.list-group-item
+                    a(href='/category/electronics') Electronics
+                li.list-group-item
+                    a(href='/category/homedecor') Home and garden
+                li.list-group-item
+                    a(href='/category/beauty') Beauty and personal care
+                li.list-group-item
+                    a(href='/category/toys') Toys and games
+                li.list-group-item
+                    a(href='/category/sports') Sports and outdoors
+                li.list-group-item
+                    a(href='/category/health') Health and wellness
+                li.list-group-item
+                    a(href='/category/food') Food and beverages
+                li.list-group-item
+                    a(href='/category/books') Books and media
+                li.list-group-item
+                    a(href='/category/furniture') Furniture and home decor
+          .col-md-9
+            #demo.carousel.slide(data-ride='carousel')
+              ul.carousel-indicators
+                li.active(data-target='#demo' data-slide-to='0')
+                li(data-target='#demo' data-slide-to='1')
+                li(data-target='#demo' data-slide-to='2')
+                li(data-target='#demo' data-slide-to='3')
+                li(data-target='#demo' data-slide-to='4')
+                li(data-target='#demo' data-slide-to='5')
+                li(data-target='#demo' data-slide-to='6')
+                li(data-target='#demo' data-slide-to='7')
+                li(data-target='#demo' data-slide-to='8')
+                li(data-target='#demo' data-slide-to='9')
+                li(data-target='#demo' data-slide-to='10')
+              .carousel-inner
+                .carousel-item.active
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad1.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad2.png' alt='Advertisement 2' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad3.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad4.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad5.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad6.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad7.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad8.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad9.png' alt='Advertisement 1' width='1200' height='500')
+                .carousel-item
+                  a(href="https://www.daraz.pk", target="_blank") 
+                    img(src='../static/images/ad10.png' alt='Advertisement 1' width='1200' height='500')
+              a.carousel-control-prev(href='#demo' data-slide='prev')
+                span.carousel-control-prev-icon
+              a.carousel-control-next(href='#demo' data-slide='next')
+                span.carousel-control-next-icon
+        br
+        h3.text-center Categories
+      .row
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/clothing.jpg', alt='Clothing and Fashion Accessories')
+            .card-body
+              h5.card-title Clothing and Fashion
+              //- p.card-text A wide range of clothing items and fashion accessories, including shirts, pants, dresses, shoes, and handbags.
+              a.btn.btn-primary(href='/category/clothing') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/electronics.jpg', alt='Electronics')
+            .card-body
+              h5.card-title Electronics
+              //- p.card-text A variety of electronic devices and gadgets, including laptops, smartphones, tablets, and home theater systems.
+              a.btn.btn-primary(href='/category/electronics') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/home_and_garden.jpg', alt='Home and Garden')
+            .card-body
+              h5.card-title Home and Garden
+              //- p.card-text Products for the home and garden, including furniture, bedding, home decor, outdoor equipment, and tools and hardware.
+              a.btn.btn-primary(href='/category/homedecor') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/beauty.jpg', alt='Beauty and Personal Care')
+            .card-body
+              h5.card-title Beauty
+              //- p.card-text A variety of personal care and beauty products, including skincare products, hair care products, makeup, fragrances, and oral hygiene products.
+              a.btn.btn-primary(href='/category/beauty') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/toys.jpg', alt='Toys and Games')
+            .card-body
+              h5.card-title Toys and Games
+              //- p.card-text Toys and games for children and adults, including action figures, board games, dolls, puzzle games, and outdoor play equipment.
+              a.btn.btn-primary(href='/category/toys') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/sports.jpg', alt='Sports and Outdoors')
+            .card-body
+              h5.card-title Sports and Outdoors
+              //- p.card-text Products for sports and outdoor activities, including athletic clothing and footwear, outdoor gear, bikes and cycling equipment, athletic equipment, and golf clubs and accessories.
+              a.btn.btn-primary(href='/category/sports') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/health.jpg', alt='Health and Wellness')
+            .card-body
+              h5.card-title Health and Wellness
+              //- p.card-text Products related to health and wellness, including vitamins and supplements, fitness equipment, health food and snacks, natural remedies, and personal care products.
+              a.btn.btn-primary(href='/category/health') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/food.jpg', alt='Food and Beverages')
+            .card-body
+              h5.card-title Food and Beverages
+              //- p.card-text Food and beverage items, including non-perishable pantry items, snack foods, beverages, fresh produce, and meat and seafood.
+              a.btn.btn-primary(href='/category/food') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card.no-border
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/books.jpg', alt='Books and Media')
+            .card-body
+              h5.card-title Books and Media
+              //- p.card-text Books, movies, TV shows, music, and podcasts, in various formats such as physical copies, digital downloads, and streaming services.
+              a.btn.btn-primary(href='/category/books') Shop Now
+
+        .col-sm-6.col-md-4.col-lg-3
+          .card
+            img.card-img-top(src='../static/images/furniture.jpg', alt='Furniture and Home Decor')
+            .card-body
+              h5.card-title Home Decor
+              //- p.card-text Furniture and decorative items for the home, including tables, chairs, sofas, bedding, home decor, and outdoor furniture.
+              a.btn.btn-primary(href='/category/furniture') Shop Now
+      h3.text-center Hot Products
+      .row
+        each product in products
+          .col-sm-6.col-md-4.col-lg-3
+            .card
+              img.card-img-top(src='../static/images/'+product.image)
+              .card-body
+                h5.card-title= product.name
+                p.card-text.text-warning.font-weight-bold #{product.price} $
+                a.btn.btn-primary(href='/product/'+product.name) Shop Now
+      footer
+        .container
+            p.text-center Copyright 2021 E-Commerce Website
+    script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+    script(src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")

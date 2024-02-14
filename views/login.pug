@@ -1,0 +1,50 @@
+html(lang='en')
+  head
+    title Login
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+    script(src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous')
+    style.
+      /* Make the image fully responsive */
+      .error-messages {
+          color: red;
+      }
+  body
+    .container
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a.navbar-brand Ecommerce Website
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNav.collapse.navbar-collapse
+          ul.navbar-nav
+            li.navbar-item
+              a.nav-link(href='/') Home
+            li.navbar-item
+              a.nav-link(href='/login') Login
+            li.navbar-item
+              a.nav-link(href='/signup') Signup
+            li.navbar-item
+              a.nav-link(href='/about') About
+            li.navbar-item
+              a.nav-link(href='/contact') Contact Us
+          form.form-inline.my-2.my-lg-0(action="/search" method="POST")
+            input.form-control.mr-sm-2(type='search' placeholder='Search products' aria-label='Search' name='q')
+            button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Search
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/cart') View Cart
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/profile') View Profile
+      form.text-center.border.border-light.p-5(method='POST' action='/login')
+        p.h4.mb-4 Login
+        div.error-messages   
+            each error in errors 
+                p= error.message
+        input#defaultContactFormEmail.form-control.mb-4(type='email' placeholder='E-mail' name="email" required)
+        input#defaultContactFormEmail.form-control.mb-4(type='password' placeholder='Password' name="password" required)
+        button.btn.btn-info.btn-block(type='submit') Login
+        hr
+        p or login with:
+        a.mx-2(href='#' role='button')
+            i.fab.fa-facebook-f.light-blue-text
+        a.mx-2(href='#' role='button')
+            i.fab.fa-google.light-blue-text
+      footer
+        .container
+            p.text-center Copyright 2021 E-Commerce Website

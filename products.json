@@ -1,0 +1,496 @@
+[{
+  "_id": {
+    "$oid": "63b9cef59ee9a84cd467dba2"
+  },
+  "name": "T-Shirt",
+  "price": 19.99,
+  "category": "Clothing",
+  "image": "tshirt.jpg",
+  "description": "A comfortable, stylish T-shirt made from 100% cotton."
+},{
+  "_id": {
+    "$oid": "63b9cef59ee9a84cd467dba3"
+  },
+  "name": "Jeans",
+  "price": 49.99,
+  "category": "Clothing",
+  "image": "jeans.jpg",
+  "description": "A classic pair of jeans with a slim fit and dark wash."
+},{
+  "_id": {
+    "$oid": "63b9cef59ee9a84cd467dba4"
+  },
+  "name": "Dress",
+  "price": 69.99,
+  "category": "Clothing",
+  "image": "dress.jpg",
+  "description": "A beautiful, feminine dress with a flowy skirt and floral print."
+},{
+  "_id": {
+    "$oid": "63b9cef59ee9a84cd467dba5"
+  },
+  "name": "Sunglasses",
+  "price": 29.99,
+  "category": "Clothing",
+  "image": "sunglasses.jpg",
+  "description": "A pair of stylish sunglasses with 100% UV protection."
+},{
+  "_id": {
+    "$oid": "63b9cef59ee9a84cd467dba6"
+  },
+  "name": "Handbag",
+  "price": 99.99,
+  "category": "Clothing",
+  "image": "handbag.jpg",
+  "description": "A stylish, high-quality handbag made from genuine leather."
+},{
+  "_id": {
+    "$oid": "63b9cfb89ee9a84cd467dba7"
+  },
+  "name": "Laptop",
+  "price": 799.99,
+  "category": "Electronics",
+  "image": "laptop.jpg",
+  "description": "A powerful laptop with a fast processor and high-resolution display."
+},{
+  "_id": {
+    "$oid": "63b9cfb89ee9a84cd467dba8"
+  },
+  "name": "Smartphone",
+  "price": 499.99,
+  "category": "Electronics",
+  "image": "smartphone.jpg",
+  "description": "A high-end smartphone with a long-lasting battery and advanced camera system."
+},{
+  "_id": {
+    "$oid": "63b9cfb89ee9a84cd467dba9"
+  },
+  "name": "Tablet",
+  "price": 399.99,
+  "category": "Electronics",
+  "image": "tablet.jpg",
+  "description": "A sleek, lightweight tablet with a sharp display and fast processor."
+},{
+  "_id": {
+    "$oid": "63b9cfb89ee9a84cd467dbaa"
+  },
+  "name": "Smartwatch",
+  "price": 249.99,
+  "category": "Electronics",
+  "image": "smartwatch.jpg",
+  "description": "A stylish smartwatch with fitness tracking capabilities and notification alerts."
+},{
+  "_id": {
+    "$oid": "63b9cfb89ee9a84cd467dbab"
+  },
+  "name": "Home Theater System",
+  "price": 599.99,
+  "category": "Electronics",
+  "image": "home_theater.jpg",
+  "description": "A high-quality home theater system with surround sound and streaming capabilities."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbac"
+  },
+  "name": "Sofa",
+  "price": 999.99,
+  "category": "Home Decor",
+  "image": "sofa.jpg",
+  "description": "A comfortable, stylish sofa with a modern design."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbad"
+  },
+  "name": "Dining Table",
+  "price": 699.99,
+  "category": "Home Decor",
+  "image": "dining_table.jpg",
+  "description": "A sturdy, beautiful dining table made from solid wood."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbae"
+  },
+  "name": "Queen Bed",
+  "price": 799.99,
+  "category": "Home Decor",
+  "image": "bed.jpg",
+  "description": "A stylish queen-sized bed with a comfortable mattress and sturdy frame."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbaf"
+  },
+  "name": "Comforter Set",
+  "price": 199.99,
+  "category": "Home Decor",
+  "image": "comforter.jpg",
+  "description": "A high-quality comforter set with a luxurious feel and elegant design."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbb0"
+  },
+  "name": "Vase",
+  "price": 49.99,
+  "category": "Home Decor",
+  "image": "vase.jpg",
+  "description": "A beautiful vase with a unique, artisanal design."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbb1"
+  },
+  "name": "Grill",
+  "price": 499.99,
+  "category": "Home Decor",
+  "image": "grill.jpg",
+  "description": "A high-quality grill with multiple burners and a large cooking surface."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbb2"
+  },
+  "name": "Patio Set",
+  "price": 799.99,
+  "category": "Home Decor",
+  "image": "patio_set.jpg",
+  "description": "A stylish patio set with a table, chairs, and umbrella."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbb3"
+  },
+  "name": "Power Drill",
+  "price": 199.99,
+  "category": "Home Decor",
+  "image": "power_drill.jpg",
+  "description": "A powerful, reliable power drill with multiple speed settings."
+},{
+  "_id": {
+    "$oid": "63b9d0b29ee9a84cd467dbb4"
+  },
+  "name": "Wrench Set",
+  "price": 99.99,
+  "category": "Home Decor",
+  "image": "wrench_set.jpg",
+  "description": "A set of high-quality wrenches with a range of sizes."
+},{
+  "_id": {
+    "$oid": "63b9d15c2327e700eefe1135"
+  },
+  "name": "Facial Cleanser",
+  "price": 19.99,
+  "category": "Beauty",
+  "image": "facial_cleanser.jpg",
+  "description": "A gentle, effective facial cleanser for all skin types."
+},{
+  "_id": {
+    "$oid": "63b9d15c2327e700eefe1136"
+  },
+  "name": "Moisturizer",
+  "price": 24.99,
+  "category": "Beauty",
+  "image": "moisturizer.jpg",
+  "description": "A lightweight, nourishing moisturizer for all skin types."
+},{
+  "_id": {
+    "$oid": "63b9d15c2327e700eefe1137"
+  },
+  "name": "Serum",
+  "price": 49.99,
+  "category": "Beauty",
+  "image": "serum.jpg",
+  "description": "A powerful, concentrated serum with active ingredients to target specific skin concerns."
+},{
+  "_id": {
+    "$oid": "63b9d15c2327e700eefe1138"
+  },
+  "name": "Shampoo",
+  "price": 14.99,
+  "category": "Beauty",
+  "image": "shampoo.jpg",
+  "description": "A nourishing shampoo for all hair types."
+},{
+  "_id": {
+    "$oid": "63b9d15c2327e700eefe1139"
+  },
+  "name": "Conditioner",
+  "price": 14.99,
+  "category": "Beauty",
+  "image": "conditioner.jpg",
+  "description": "A moisturizing conditioner for all hair types."
+},{
+  "_id": {
+    "$oid": "63b9d1ef2327e700eefe113a"
+  },
+  "name": "Action Figure",
+  "price": 14.99,
+  "category": "Toys",
+  "image": "action_figure.jpg",
+  "description": "A detailed, poseable action figure based on a popular character."
+},{
+  "_id": {
+    "$oid": "63b9d1ef2327e700eefe113b"
+  },
+  "name": "Board Game",
+  "price": 24.99,
+  "category": "Toys",
+  "image": "board_game.jpg",
+  "description": "A fun, interactive board game for all ages."
+},{
+  "_id": {
+    "$oid": "63b9d1ef2327e700eefe113c"
+  },
+  "name": "Doll",
+  "price": 19.99,
+  "category": "Toys",
+  "image": "doll.jpg",
+  "description": "A beautifully designed doll with a realistic appearance."
+},{
+  "_id": {
+    "$oid": "63b9d1ef2327e700eefe113d"
+  },
+  "name": "Puzzle Game",
+  "price": 14.99,
+  "category": "Toys",
+  "image": "puzzle_game.jpg",
+  "description": "A challenging puzzle game with multiple levels and themes."
+},{
+  "_id": {
+    "$oid": "63b9d2d22327e700eefe113e"
+  },
+  "name": "Running Shoes",
+  "price": 99.99,
+  "category": "Sports",
+  "image": "running_shoes.jpg",
+  "description": "A pair of comfortable, high-performance running shoes."
+},{
+  "_id": {
+    "$oid": "63b9d2d22327e700eefe113f"
+  },
+  "name": "Backpack",
+  "price": 69.99,
+  "category": "Sports",
+  "image": "backpack.jpg",
+  "description": "A sturdy, high-capacity backpack with multiple pockets and compartments."
+},{
+  "_id": {
+    "$oid": "63b9d2d22327e700eefe1140"
+  },
+  "name": "Tent",
+  "price": 199.99,
+  "category": "Sports",
+  "image": "tent.jpg",
+  "description": "A high-quality tent with a durable, water-resistant design."
+},{
+  "_id": {
+    "$oid": "63b9d2d22327e700eefe1141"
+  },
+  "name": "Road Bike",
+  "price": 999.99,
+  "category": "Sports",
+  "image": "road_bike.jpg",
+  "description": "A lightweight, fast road bike with a responsive drivetrain and aerodynamic frame."
+},{
+  "_id": {
+    "$oid": "63b9d2d22327e700eefe1142"
+  },
+  "name": "Basketball",
+  "price": 24.99,
+  "category": "Sports",
+  "image": "basketball.jpg",
+  "description": "A high-quality basketball with a durable, responsive cover."
+},{
+  "_id": {
+    "$oid": "63b9d35b2327e700eefe1143"
+  },
+  "name": "Multivitamin",
+  "price": 19.99,
+  "category": "Health",
+  "image": "multivitamin.jpg",
+  "description": "A daily multivitamin with essential nutrients for overall health and wellness."
+},{
+  "_id": {
+    "$oid": "63b9d35b2327e700eefe1144"
+  },
+  "name": "Protein Powder",
+  "price": 39.99,
+  "category": "Health",
+  "image": "protein_powder.jpg",
+  "description": "A high-quality protein powder to support muscle building and recovery."
+},{
+  "_id": {
+    "$oid": "63b9d35b2327e700eefe1145"
+  },
+  "name": "Treadmill",
+  "price": 999.99,
+  "category": "Health",
+  "image": "treadmill.jpg",
+  "description": "A high-performance treadmill with a variety of incline and speed settings."
+},{
+  "_id": {
+    "$oid": "63b9d35b2327e700eefe1146"
+  },
+  "name": "Dumbbell Set",
+  "price": 199.99,
+  "category": "Health",
+  "image": "dumbbells.jpg",
+  "description": "A set of adjustable dumbbells with a range of weights."
+},{
+  "_id": {
+    "$oid": "63b9d35b2327e700eefe1147"
+  },
+  "name": "Healthy Snacks",
+  "price": 29.99,
+  "category": "Health",
+  "image": "healthy_snacks.jpg",
+  "description": "A variety pack of healthy snacks, including nuts, fruit, and grain-free options."
+},{
+  "_id": {
+    "$oid": "63b9d35b2327e700eefe1148"
+  },
+  "name": "Essential Oils",
+  "price": 49.99,
+  "category": "Health",
+  "image": "essential_oils.jpg",
+  "description": "A set of high-quality essential oils with a variety of therapeutic benefits."
+},{
+  "_id": {
+    "$oid": "63b9d41d2327e700eefe1149"
+  },
+  "name": "Pasta",
+  "price": 2.99,
+  "category": "Food",
+  "image": "pasta.jpg",
+  "description": "A package of high-quality pasta in a variety of shapes and sizes."
+},{
+  "_id": {
+    "$oid": "63b9d41d2327e700eefe114a"
+  },
+  "name": "Rice",
+  "price": 3.99,
+  "category": "Food",
+  "image": "rice.jpg",
+  "description": "A bag of long-grain white rice, perfect for a variety of dishes."
+},{
+  "_id": {
+    "$oid": "63b9d41d2327e700eefe114b"
+  },
+  "name": "Canned Tomatoes",
+  "price": 1.99,
+  "category": "Food",
+  "image": "canned_tomatoes.jpg",
+  "description": "A can of diced tomatoes, perfect for soups, sauces, and more."
+},{
+  "_id": {
+    "$oid": "63b9d41d2327e700eefe114c"
+  },
+  "name": "Chips",
+  "price": 2.99,
+  "category": "Food",
+  "image": "chips.jpg",
+  "description": "A bag of crispy, savory chips in a classic flavor."
+},{
+  "_id": {
+    "$oid": "63b9d4e52327e700eefe114d"
+  },
+  "name": "Thin Air",
+  "price": 9.99,
+  "category": "Books",
+  "image": "thin_air.jpg",
+  "description": "A thrilling science fiction novel about a group of scientists who disappear during an expedition on Mars."
+},{
+  "_id": {
+    "$oid": "63b9d4e52327e700eefe114e"
+  },
+  "name": "The Silent Patient",
+  "price": 12.99,
+  "category": "Books",
+  "image": "the_silent_patient.jpg",
+  "description": "A psychological thriller about a famous painter who becomes a suspect in the murder of her husband."
+},{
+  "_id": {
+    "$oid": "63b9d4e52327e700eefe114f"
+  },
+  "name": "The Overstory",
+  "price": 15.99,
+  "category": "Books",
+  "image": "the_overstory.jpg",
+  "description": "An epic novel about the interconnected lives of nine people, all connected by their love of trees."
+},{
+  "_id": {
+    "$oid": "63b9d4e52327e700eefe1150"
+  },
+  "name": "TV Series: Game of Thrones",
+  "price": 39.99,
+  "category": "Books",
+  "image": "game_of_thrones.jpg",
+  "description": "The complete series of the popular TV show Game of Thrones, available on DVD."
+},{
+  "_id": {
+    "$oid": "63b9d4e52327e700eefe1151"
+  },
+  "name": "Movie: The Shawshank Redemption",
+  "price": 14.99,
+  "category": "Books",
+  "image": "shawshank_redemption.jpg",
+  "description": "The classic movie The Shawshank Redemption, available on Blu-ray."
+},{
+  "_id": {
+    "$oid": "63b9d4e52327e700eefe1152"
+  },
+  "name": "Album: Beyonce - Lemonade",
+  "price": 11.99,
+  "category": "Books",
+  "image": "lemonade.jpg",
+  "description": "The critically acclaimed album Lemonade by Beyonce, available on CD and vinyl."
+},{
+  "_id": {
+    "$oid": "63b9d4e52327e700eefe1153"
+  },
+  "name": "Podcast: Serial",
+  "price": 0.99,
+  "category": "Books",
+  "image": "serial.jpg",
+  "description": "The first season of the popular true crime podcast Serial, available for download."
+},{
+  "_id": {
+    "$oid": "63b9d5742327e700eefe1154"
+  },
+  "name": "Garden Hose",
+  "price": 29.99,
+  "category": "Garden",
+  "image": "garden_hose.jpg",
+  "description": "A durable, flexible garden hose with a high water flow rate."
+},{
+  "_id": {
+    "$oid": "63b9d5742327e700eefe1155"
+  },
+  "name": "Gardening Gloves",
+  "price": 9.99,
+  "category": "Garden",
+  "image": "gardening_gloves.jpg",
+  "description": "A pair of breathable, comfortable gardening gloves to protect your hands while working in the garden."
+},{
+  "_id": {
+    "$oid": "63b9d5742327e700eefe1156"
+  },
+  "name": "Garden Tool Set",
+  "price": 39.99,
+  "category": "Garden",
+  "image": "garden_tool_set.jpg",
+  "description": "A set of essential garden tools, including a shovel, rake, and trowel."
+},{
+  "_id": {
+    "$oid": "63b9d5742327e700eefe1157"
+  },
+  "name": "Plant Seeds",
+  "price": 12.99,
+  "category": "Garden",
+  "image": "plant_seeds.jpg",
+  "description": "A variety pack of high-quality plant seeds, including flowers, vegetables, and herbs."
+},{
+  "_id": {
+    "$oid": "63b9d5742327e700eefe1158"
+  },
+  "name": "Garden Fertilizer",
+  "price": 14.99,
+  "category": "Garden",
+  "image": "garden_fertilizer.jpg",
+  "description": "A nutrient-rich fertilizer to help your plants grow strong and healthy."
+}]

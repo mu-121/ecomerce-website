@@ -1,0 +1,46 @@
+html(lang='en')
+  head
+    title About Us
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+  body
+    .container
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a.navbar-brand Ecommerce Website
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNav.collapse.navbar-collapse
+          ul.navbar-nav
+            li.navbar-item
+              a.nav-link(href='/') Home
+            li.navbar-item
+              a.nav-link(href='/login') Login
+            li.navbar-item
+              a.nav-link(href='/signup') Signup
+            li.navbar-item
+              a.nav-link(href='/about') About
+            li.navbar-item
+              a.nav-link(href='/contact') Contact Us
+          form.form-inline.my-2.my-lg-0(action="/search" method="POST")
+            input.form-control.mr-sm-2(type='search' placeholder='Search products' aria-label='Search' name='q')
+            button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Search
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/cart') View Cart
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/profile') View Profile
+      br
+      h3.text-center About Us
+      .container
+        p Welcome to our website! We are a small, family-owned business that has been operating for over 25 years. Our company was founded on the belief that everyone deserves access to high-quality products at an affordable price.
+        br
+        p We are dedicated to providing our customers with the best shopping experience possible. From our user-friendly website to our top-notch customer service, we strive to go above and beyond to ensure that you are completely satisfied with your purchase.
+        br
+        p Our team is made up of a diverse group of individuals who are passionate about what they do. We believe in the power of community and strive to give back through various charitable efforts.
+        br
+        p Our company was founded by Abdul Rehman, who had a vision of creating a business that would make a positive impact on the world. Since then, we have grown into a successful and respected organization, thanks to the hard work and dedication of our team and the loyalty of our customers.
+        br
+        p We are committed to offering the highest quality products at competitive prices. We source our products from reputable suppliers and manufacturers and rigorously test them to ensure that they meet our strict standards. We also stand behind our products with a 100% satisfaction guarantee.
+        br
+        p In addition to our commitment to quality, we are also dedicated to sustainability and social responsibility. We use eco-friendly packaging materials and have implemented a number of initiatives to reduce our environmental impact. We also partner with organizations that share our values and support their efforts to make a difference in the world.
+        br
+        p Thank you for choosing to shop with us. We look forward to serving you and becoming your go-to source for all of your shopping needs.
+      footer
+        .container
+            p.text-center Copyright 2021 E-Commerce Website

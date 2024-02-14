@@ -1,0 +1,50 @@
+html(lang='en')
+  head
+    title Cart
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+    style.
+      /* Make the image fully responsive */
+      .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      }
+      .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .marginclass{
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+      .no-border{
+        border: 0;
+      }
+  body
+    .container
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a.navbar-brand Ecommerce Website
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNav.collapse.navbar-collapse
+          ul.navbar-nav
+            li.navbar-item
+              a.nav-link(href='/') Home
+            li.navbar-item
+              a.nav-link(href='/login') Login
+            li.navbar-item
+              a.nav-link(href='/signup') Signup
+            li.navbar-item
+              a.nav-link(href='/about') About
+            li.navbar-item
+              a.nav-link(href='/contact') Contact Us
+          form.form-inline.my-2.my-lg-0(action="/search" method="POST")
+            input.form-control.mr-sm-2(type='search' placeholder='Search products' aria-label='Search' name='q')
+            button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Search
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/cart') View Cart
+          a.btn.btn-outline-secondary.mx-2.float-right(href='/profile') View Profile
+      br
+      h3.text-center My Cart
+      p.text-center Your cart is empty!
+      footer
+        .container
+            p.text-center Copyright 2021 E-Commerce Website
